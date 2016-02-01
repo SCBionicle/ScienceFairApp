@@ -64,12 +64,12 @@ public class ProjectInfo {
 
     @Override
     public String toString() {
-        return "ProjectInfo{" +
-                "projectTitle='" + projectTitle + '\'' +
-                ", projectID='" + projectID + '\'' +
-                ", studentName='" + studentName + '\'' +
-                ", grade=" + grade +
-                ", timeJudged=" + timeJudged +
-                '}';
+        return "" +
+                "Project Title: '" + projectTitle + "\'\n" +
+                "Project ID: '" + projectID + "\'\n" +
+                "\nStudent Name: '" + studentName + '\'' +
+                "\nGrade; '" + grade +
+                "\nTime Judged; " + timeJudged
+                ;
     }
 }
